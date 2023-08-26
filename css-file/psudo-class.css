@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(90, 100, 97);
+}
+
+h1:hover{
+    color:red;
+    background-color:green;
+}
+input[type="checkbox"],
+input[type="radio"]:checked{
+    height:50px;
+    width:50px;
+    accent-color:green;
+}
+
+input:disabled{
+    border-color: 5px black;
+}
+
+div:empty{
+    height:10px;
+    background-color:aqua;
+}
+
+div:first-child{
+    background-color:mediumvioletred;
+}

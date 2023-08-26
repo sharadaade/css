@@ -1,0 +1,23 @@
+/* This is External css  */
+body{
+    background-color: rgb(10, 232, 158);
+}
+h2{
+    color:chocolate;
+    border: 1px red dotted;
+}
+ul{
+    color:magenta;
+}
+div{
+    height: 50px;
+    width: 50px;
+    border: thick red dotted;
+    /* border-color:brown;
+    border-style: dotted;
+    border-width:thick; */
+}
+.headthree{
+    color:white;
+    background-color:black;
+}

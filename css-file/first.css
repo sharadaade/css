@@ -1,0 +1,15 @@
+body {
+    color: tomato;
+    background-color: rgb(113, 234, 119);
+  }
+h1 {
+    text-align:center;
+    border: 5px solid tomato;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:yellow;
+  }
+p {
+ font-family:"monaco";
+ line-height:150%;
+}

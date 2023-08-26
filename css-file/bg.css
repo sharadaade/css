@@ -1,0 +1,6 @@
+div{
+    height: 200px;
+    width: 400px;
+    background-image: url("https://picsum.photos/id/1/1000/1000");
+    background-repeat:no-repeat;
+}

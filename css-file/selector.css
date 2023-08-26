@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(85,85,85);
+    color:rgb(240, 202, 151);
+    font-family:monaco;
+}
+input{
+    border:3px solid magenta;
+    padding:10px;
+    width:99%;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"]{
+    border-radius:20px;
+}
+input[type="number"]{
+    border-radius:20px;
+    border-color:blueviolet;
+}
+h2[id="college"]{
+    color:magenta;
+    background-color:lightgreen;
+}
+li[class="non"]{
+    color:deeppink;
+}
+li[class="para"]{
+    color:cyan;
+}
+li[class="red"]{
+    color:red;
+    background-color:lightgreen;
+}
+div > span{
+    background-color:cornflowerblue;
+    color:blue;
+}
+
+span [class="lol"]{
+    color:cadetblue;
+    background-color:aquamarine;
+}
+
+.sibling-container{
+    border: 1px solid white;
+    border-radius:10px;
+}
+.sibling-container > * {
+    margin:10px;
+    padding:10px;
+    border: 3px solid green;
+    border-radius:10px;
+}
